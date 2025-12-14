@@ -1,6 +1,6 @@
 #!/bin/sh
-# Tổng hợp thời tiết & chất lượng không khí TP.HCM
-# API: Open-Meteo (không cần API key)
+# Tổng hợp thời tiết & chất lượng không khí TP. Hồ Chí Minh
+# API: Open-Meteo (KHÔNG cần API key)
 
 LAT=10.8231
 LON=106.6297
@@ -42,5 +42,4 @@ else
   AIR_LEVEL="Kém"
 fi
 
-# Output
 echo "TP.HCM: ${TEMP}°C - $DESC | PM2.5: ${PM25} µg/m³ ($AIR_LEVEL)"
